@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+    background-color: #dbeee4; /* Cor da tela de fundo da estrutura. */
+
+}
+
+form {
+    width: 350px;
+    text-align: left;
+    margin: auto;
+    padding: 20px;
+    background: rgba(193, 209, 156, 0.895); /* Cor do preenchimento dentro do formulário. */
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px #060606; /* Cor da borda do formulário. */
+}
+
+label {
+    display: block;
+    margin-top: 10px;  /* Espaçamento entre os campos do formulário. */
+    font-weight: bold;
+
+}
+
+input {
+    width: 100%;  /* Medidas dos campos de preenchimento do formulário. */
+    padding: 8px;
+    margin-top: 15px;
+    border: 1px solid #000000; /* Cor da borda dos campos de preenchimentos do formulário. */
+    border-radius: 5px;
+}
+
+button {
+    background-color: #2ae143bd;   /* Cor de preenchimento do botão cadastrar. */
+
+    color: rgb(255, 252, 252);   /* Cor da fonte do botão de cadastrar. */
+    border: 1px solid #000000;
+    padding: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#responsaveis {
+    margin-top: 8px;
+    padding: 8px;
+    background-color: rgba(193, 209, 156, 0.895);         /* Esse espaço é dos campos de preencimentos do Pai e Mãe do menor. */
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px #060606;
+}
+
+button:hover {
+    background-color: #0f5c23; /* Mudança de cor do botão de cadastrar. */
+}
